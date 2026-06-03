@@ -1,0 +1,34 @@
+Phishing and Social Engineering Attacks          
+Deceptive techniques designed to trick individuals into revealing sensitive information or performing certain actions. Phishing, a form of social engineering, often involves fraudulent emails or messages that mimic legitimate sources.
+Protection Tools:
+Email Filtering Solutions: Tools like Mimecast or Proofpoint can help filter out phishing emails before they reach the user.
+Security Awareness Training: Platforms like KnowBe4 or PhishMe offer training to help individuals recognise and respond appropriately to phishing attempts.
+
+Malware (Viruses, Worms, Trojans, and Ransomware)
+Malicious software designed to damage, disrupt, or gain unauthorised access to computer systems.
+Protection Tools:
+Antivirus Software: Solutions like Bitdefender, Norton, or McAfee provide real-time protection against malware.
+Endpoint Protection Platforms (EPP): Tools like CrowdStrike Falcon or Sophos Intercept X offer comprehensive defence mechanisms against advanced malware, including ransomware.
+
+DDoS Attacks              
+Distributed Denial of Service (DDoS) attacks overwhelm systems, networks, or websites with traffic to render them inoperable
+Protection Tools:
+DDoS Mitigation Services: Cloudflare, Akamai, and Arbor Networks offer services to protect against DDoS attacks by filtering and redirecting malicious traffic.
+
+SQL Injection              
+A code injection technique that exploits vulnerabilities in a website's database to gain unauthorised access or manipulate data.
+Protection Tools
+Web Application Firewalls (WAF): Tools like Imperva, Fortinet, and AWS WAF can detect and block SQL injection attacks.
+Secure Coding Practices: Education platforms like CodeacademyLinks to an external site. or PluralsightLinks to an external site. offer courses on secure coding practices to prevent SQL injection vulnerabilities.
+
+Zero-Day Exploits               
+Attacks that target software vulnerabilities before the vendor has issued a patch.
+Protection Tools:
+Patch Management Software: Automate patch deployment using tools like ManageEngine Patch Manager Plus or Ivanti Patch for Windows.
+Intrusion Detection Systems (IDS): Solutions like Snort or Suricata can help detect unusual activity patterns that may indicate a zero-day exploit.
+
+Weak Passwords and Authentication Flaws            
+The use of easily guessable or compromised passwords, increasing the risk of unauthorised access.
+Protection Tools:
+Password Managers: Tools like LastPass, 1Password, or Bitwarden help generate and store strong, unique passwords.
+Multi-Factor Authentication (MFA): Solutions like Duo Security, Google Authenticator, or Microsoft Authenticator add an extra layer of security during the authentication process.
