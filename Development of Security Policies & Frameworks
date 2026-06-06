@@ -1,0 +1,98 @@
+Examples of such frameworks include:
+
+ISO/IEC 27001: An international standard that specifies the requirements for establishing, implementing, maintaining, and continually improving an information security management system (ISMS). This framework emphasises the importance of assessing and treating information security risks tailored to the organisation's needs.
+NIST Cybersecurity Framework: Developed by the National Institute of Standards and Technology, this framework provides a policy framework of computer security guidance for how private sector organisations in the US can assess and improve their ability to prevent, detect, and respond to cyber-attacks.
+COBIT (Control Objectives for Information and Related Technologies): A framework for IT management and governance that provides a comprehensive set of measures, indicators, processes, and best practices to manage the information security governance and management in an organisation.
+The adoption of these frameworks helps organisations ensure that their security policies are robust, resilient, and adaptable to changing threats and technologies.
+
+https://www.bartleby.com/subject/engineering/computer-science/concepts/types-of-security-models
+
+1. What are Security Models?
+Security models are frameworks used to enforce and evaluate security policies in systems.
+They:
+
+Define how data is accessed and protected
+Help ensure the CIA triad:
+
+Confidentiality – prevent unauthorised access
+Integrity – ensure data accuracy
+Availability – ensure data is accessible when needed
+
+2. The CIA Triad (Core Concept)
+🔒 Confidentiality
+Data only accessible to authorised users
+Protection methods:
+
+Encryption
+Authentication
+Access control
+
+Threats:
+Eavesdropping
+Man-in-the-middle attacks
+
+✅ Integrity
+Ensures data is accurate and not altered
+Only authorised users can modify data
+Protection methods:
+
+Hashing
+Validation controls
+
+Threats:
+Human error
+System failures
+
+⚡ Availability
+Systems/data must be accessible at all times
+Maintained through:
+
+Backups
+System maintenance
+Failover systems
+
+Threats:
+DDoS attacks
+Hardware failure
+
+3. Main Security Models
+🔐 1. Bell-LaPadula Model (Confidentiality-focused)
+Prevents unauthorised access to sensitive data
+Used in military/government systems
+
+Rules:
+No Read Up → you can’t read higher-level data
+No Write Down → you can’t write to lower-level data
+Strong Rule → only same-level read/write
+
+👉 Focus: Protect secrecy
+✅ 2. Biba Model (Integrity-focused)
+Ensures data remains accurate and trustworthy
+
+Rules:
+No Read Down → avoid low-quality data
+No Write Up → prevent corrupting higher-level data
+Strong Rule → same-level only
+
+👉 Focus: Protect data integrity
+🔄 3. Clark-Wilson Model (Business/Practical Security)
+
+Ensures data integrity through controlled processes
+Used in financial and commercial systems
+Key Ideas:
+
+Users don’t access sensitive data directly
+Access happens through:
+Transformation processes
+Verification procedures
+
+👉 Focus: Controlled access + auditing
+
+4. Quick Comparison
+
+ModelFocusKey IdeaBell-LaPadulaConfidentialityStop data leaksBibaIntegrityPrevent data corruptionClark-WilsonIntegrityControlled business processes
+
+5. Easy Way to Remember
+Bell-LaPadula → “Secret stays secret”
+Biba → “Data stays correct”
+Clark-Wilson → “Only approved processes allowed”
