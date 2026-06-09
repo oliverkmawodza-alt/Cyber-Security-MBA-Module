@@ -1,0 +1,20 @@
+STRIDE:
+Spoofing identity
+Tampering with data
+Repudiation of actions
+Information Disclosure (privacy breach)
+Denial of Service (DoS)
+Elevation of Privilege
+This method categorises threats to understand and mitigate potential attacks effectively.
+
+PASTA:
+The Process for Attack Simulation and Threat Analysis emphasises a risk-centric approach by systematically simulating attacks
+to identify and analyse threats, prioritising them based on their impact.
+
+TRIKE:
+A methodology that treats security requirements as risk management tasks, ensuring a thorough evaluation of threats against system vulnerabilities. 
+Trike combines multiple models, enabling them to work together.
+
+VAST:
+Visual, Agile, and Simple Threat modelling is adaptable to both agile and traditional development settings. This model focuses on a scalable 
+and visual approach to threat modelling, making it applicable across various project scales.
