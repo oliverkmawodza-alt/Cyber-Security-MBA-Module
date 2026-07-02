@@ -1,0 +1,18 @@
+Completing the SSL/TLS configuration and testing process gave me a clearer understanding of how secure web communication actually works in practice. 
+Accessing my server through a browser using https://localhost allowed me to verify that the SSL/TLS setup was functioning as intended, even though 
+the connection did not display a traditional padlock icon. 
+
+The module explains that the padlock indicates a secure HTTPS connection , but because I used a self‑signed certificate, the browser behaved differently
+something the module highlights as a common issue with certificates not being trusted by default 
+
+Working through this step helped me appreciate the importance of SSL/TLS in protecting data confidentiality and integrity during transmission. 
+It also highlighted the practical challenges of certificate management, such as ensuring the certificate is valid, correctly installed, and matches 
+the domain name . Even though my environment was local, the process mirrored what would be required on a public-facing server.
+
+Exploring the online testing tools conceptually — such as SSL Labs, Mozilla Observatory, and Qualys FreeScan — reinforced how organisations assess the 
+strength of their SSL/TLS configurations. These tools provide grading, highlight weak cipher suites, and identify vulnerabilities like Heartbleed 
+or POODLE. Although they cannot scan a localhost environment, understanding how they work is valuable for real-world deployments where HTTPS directly 
+affects user trust and search engine optimisation (SEO)
+
+Overall, this activity strengthened my understanding of HTTPS, certificate handling, and the broader security implications of SSL/TLS. It also emphasised
+the need for continuous testing and improvement to maintain strong security posture over time
